@@ -1,0 +1,240 @@
+
+{
+"stations": [
+{ "en": "Bengaluru City (SBC)", "kn": "ಬೆಂಗಳೂರು ನಗರ (SBC)" },
+{ "en": "Mysuru Junction (MYS)", "kn": "ಮೈಸೂರು ಜಂಕ್ಷನ್ (MYS)" },
+{ "en": "Hubballi Junction (UBL)", "kn": "ಹುಬ್ಬಳ್ಳಿ ಜಂಕ್ಷನ್ (UBL)" },
+{ "en": "Belagavi (BGM)", "kn": "ಬೆಳಗಾವಿ (BGM)" },
+{ "en": "Kalaburagi (KLBG)", "kn": "ಕಲಬುರಗಿ (KLBG)" },
+{ "en": "Shivamogga (SMET)", "kn": "ಶಿವಮೊಗ್ಗ (SMET)" },
+{ "en": "Hassan (HAS)", "kn": "ಹಾಸನ (HAS)" },
+{ "en": "Mandya (MYA)", "kn": "ಮಂಡ್ಯ (MYA)" },
+{ "en": "Tumakuru (TK)", "kn": "ತುಮಕೂರು (TK)" },
+{ "en": "Arasikere (ASK)", "kn": "ಅರಸೀಕೆರೆ (ASK)" },
+{ "en": "Chamarajanagar (CMNR)", "kn": "ಚಾಮರಾಜನಗರ (CMNR)" }
+],
+
+"trains": [
+
+{
+"id": "20001",
+"name": "Bengaluru Mysuru Express",
+"platform": "1",
+"expectedTime": "06:00",
+"stations": ["Bengaluru City (SBC)", "Mandya (MYA)", "Mysuru Junction (MYS)"],
+"coaches": ["ENG","GEN","S1","S2","GEN"],
+"crowd": ["none","high","medium","low","high"],
+"announcement": "Bengaluru Mysuru Express is arriving on platform one."
+},
+
+{
+"id": "20002",
+"name": "Tumakuru Passenger",
+"platform": "2",
+"expectedTime": "07:00",
+"stations": ["Bengaluru City (SBC)", "Tumakuru (TK)"],
+"coaches": ["ENG","GEN","GEN","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Tumakuru Passenger is arriving on platform two."
+},
+
+{
+"id": "20003",
+"name": "Hubballi Intercity",
+"platform": "3",
+"expectedTime": "08:00",
+"stations": ["Bengaluru City (SBC)", "Tumakuru (TK)", "Hubballi Junction (UBL)"],
+"coaches": ["ENG","GEN","S1","S2","GEN"],
+"crowd": ["none","high","medium","medium","high"],
+"announcement": "Hubballi Intercity is arriving on platform three."
+},
+
+{
+"id": "20004",
+"name": "Belagavi Superfast",
+"platform": "4",
+"expectedTime": "09:00",
+"stations": ["Hubballi Junction (UBL)", "Belagavi (BGM)"],
+"coaches": ["ENG","GEN","S1","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Belagavi Superfast is arriving on platform four."
+},
+
+{
+"id": "20005",
+"name": "Kalaburagi Express",
+"platform": "5",
+"expectedTime": "10:00",
+"stations": ["Hubballi Junction (UBL)", "Kalaburagi (KLBG)"],
+"coaches": ["ENG","GEN","S1","S2","GEN"],
+"crowd": ["none","high","medium","low","high"],
+"announcement": "Kalaburagi Express is arriving on platform five."
+},
+
+{
+"id": "20006",
+"name": "Shivamogga Fast Passenger",
+"platform": "6",
+"expectedTime": "11:00",
+"stations": ["Bengaluru City (SBC)", "Hassan (HAS)", "Shivamogga (SMET)"],
+"coaches": ["ENG","GEN","D1","D2","GEN"],
+"crowd": ["none","high","medium","low","high"],
+"announcement": "Shivamogga Fast Passenger is arriving on platform six."
+},
+
+{
+"id": "20007",
+"name": "Hassan Express",
+"platform": "7",
+"expectedTime": "12:00",
+"stations": ["Bengaluru City (SBC)", "Hassan (HAS)"],
+"coaches": ["ENG","GEN","S1","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Hassan Express is arriving on platform seven."
+},
+
+{
+"id": "20008",
+"name": "Mandya Passenger",
+"platform": "1",
+"expectedTime": "13:00",
+"stations": ["Bengaluru City (SBC)", "Mandya (MYA)"],
+"coaches": ["ENG","GEN","GEN"],
+"crowd": ["none","high","high"],
+"announcement": "Mandya Passenger is arriving on platform one."
+},
+
+{
+"id": "20009",
+"name": "Arasikere Intercity",
+"platform": "2",
+"expectedTime": "14:00",
+"stations": ["Bengaluru City (SBC)", "Hassan (HAS)", "Arasikere (ASK)"],
+"coaches": ["ENG","GEN","S1","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Arasikere Intercity is arriving on platform two."
+},
+
+{
+"id": "20010",
+"name": "Chamarajanagar Express",
+"platform": "3",
+"expectedTime": "15:00",
+"stations": ["Mysuru Junction (MYS)", "Chamarajanagar (CMNR)"],
+"coaches": ["ENG","GEN","D1","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Chamarajanagar Express is arriving on platform three."
+},
+
+{
+"id": "20011",
+"name": "Mysuru Shatabdi",
+"platform": "4",
+"expectedTime": "16:00",
+"stations": ["Bengaluru City (SBC)", "Mysuru Junction (MYS)"],
+"coaches": ["ENG","C1","C2","C3","ENG"],
+"crowd": ["none","low","medium","low","none"],
+"announcement": "Mysuru Shatabdi is arriving on platform four."
+},
+
+{
+"id": "20012",
+"name": "Hubballi Night Express",
+"platform": "5",
+"expectedTime": "17:00",
+"stations": ["Bengaluru City (SBC)", "Tumakuru (TK)", "Hubballi Junction (UBL)"],
+"coaches": ["ENG","GEN","S1","S2","B1","GEN"],
+"crowd": ["none","high","medium","medium","low","high"],
+"announcement": "Hubballi Night Express is arriving on platform five."
+},
+
+{
+"id": "20013",
+"name": "Belagavi Passenger",
+"platform": "6",
+"expectedTime": "18:00",
+"stations": ["Hubballi Junction (UBL)", "Belagavi (BGM)"],
+"coaches": ["ENG","GEN","GEN","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Belagavi Passenger is arriving on platform six."
+},
+
+{
+"id": "20014",
+"name": "Kalaburagi Superfast",
+"platform": "7",
+"expectedTime": "19:00",
+"stations": ["Bengaluru City (SBC)", "Hubballi Junction (UBL)", "Kalaburagi (KLBG)"],
+"coaches": ["ENG","GEN","S1","S2","S3","GEN"],
+"crowd": ["none","high","medium","medium","low","high"],
+"announcement": "Kalaburagi Superfast is arriving on platform seven."
+},
+
+{
+"id": "20015",
+"name": "Shivamogga Express",
+"platform": "1",
+"expectedTime": "20:00",
+"stations": ["Bengaluru City (SBC)", "Tumakuru (TK)", "Hassan (HAS)", "Shivamogga (SMET)"],
+"coaches": ["ENG","GEN","S1","S2","GEN"],
+"crowd": ["none","high","medium","low","high"],
+"announcement": "Shivamogga Express is arriving on platform one."
+},
+
+{
+"id": "20016",
+"name": "Hassan Passenger",
+"platform": "2",
+"expectedTime": "21:00",
+"stations": ["Mysuru Junction (MYS)", "Hassan (HAS)"],
+"coaches": ["ENG","GEN","GEN"],
+"crowd": ["none","high","high"],
+"announcement": "Hassan Passenger is arriving on platform two."
+},
+
+{
+"id": "20017",
+"name": "Mandya Night Passenger",
+"platform": "3",
+"expectedTime": "22:00",
+"stations": ["Bengaluru City (SBC)", "Mandya (MYA)"],
+"coaches": ["ENG","GEN","GEN"],
+"crowd": ["none","high","high"],
+"announcement": "Mandya Night Passenger is arriving on platform three."
+},
+
+{
+"id": "20018",
+"name": "Arasikere Passenger",
+"platform": "4",
+"expectedTime": "23:00",
+"stations": ["Hassan (HAS)", "Arasikere (ASK)"],
+"coaches": ["ENG","GEN","GEN"],
+"crowd": ["none","high","medium"],
+"announcement": "Arasikere Passenger is arriving on platform four."
+},
+
+{
+"id": "20019",
+"name": "Late Night Mysuru Express",
+"platform": "5",
+"expectedTime": "23:30",
+"stations": ["Bengaluru City (SBC)", "Mandya (MYA)", "Mysuru Junction (MYS)"],
+"coaches": ["ENG","GEN","S1","GEN"],
+"crowd": ["none","high","medium","high"],
+"announcement": "Late Night Mysuru Express is arriving on platform five."
+},
+
+{
+"id": "20020",
+"name": "Midnight Hubballi Express",
+"platform": "6",
+"expectedTime": "23:55",
+"stations": ["Bengaluru City (SBC)", "Tumakuru (TK)", "Hubballi Junction (UBL)"],
+"coaches": ["ENG","GEN","S1","S2","GEN"],
+"crowd": ["none","high","medium","low","high"],
+"announcement": "Midnight Hubballi Express is arriving on platform six."
+}
+
+]
+}
